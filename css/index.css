@@ -1,9 +1,14 @@
 body{
   font-family: Arial;
+  background-color: aliceblue;
 }
 
 #main-heading{
   text-align: center;
+}
+
+#main-heading:hover{
+  color: brown;
 }
 
 .grid-container{
@@ -13,11 +18,13 @@ body{
   row-gap: 10px;
   margin-top: 10px;
   align-items: center;
+  justify-content: center;
 }
 
 #todo-input, #todo-date{
   font-size: 15px;
   padding: 10px 5px;
+  border-radius: 5px;
 }
 
 .btn-delete{
@@ -29,6 +36,10 @@ body{
   cursor: pointer;
 }
 
+.btn-delete:hover{
+  background-color: red;
+}
+
 .btn-todo{
   background-color: green;
   color: white;
@@ -36,4 +47,19 @@ body{
   border-radius: 10px;
   padding: 10px 0px;
   cursor: pointer;
+}
+
+.btn-todo:hover{
+  background-color: blue;
+}
+
+footer{
+  text-align: center;
+  opacity: 0.7;
+  margin-top: 200px;
+}
+
+footer:hover{
+  color: blueviolet;
+  opacity: 1;
 }
